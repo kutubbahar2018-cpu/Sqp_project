@@ -92,7 +92,7 @@ GROUP BY jobs.job_country
 ORDER BY total_job_postings DESC;
 ```
 
-![Countries](images/01_countries.png)
+![Countries](Sql_project_kutub_bahar\Assets\01_countries.png)
 
 **Insights**
 - The 10 postings come from **7 countries**.
