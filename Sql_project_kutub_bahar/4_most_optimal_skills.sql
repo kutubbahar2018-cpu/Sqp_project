@@ -30,13 +30,12 @@
     ) 
     /* ADDITIONAL QUERY TO GET THE MOST OPTIMAL SKILLS FOR BUSINESS ANALYST JOB TITLE BASED ON SALARY AND TOTAL JOB POSTINGS */
     Select 
-        Top_paying_Skills.skills,
-        Top_paying_Skills.type,
-    MAX(Top_Overall_Skills.Total_Job_Postings) as Total_Job_Postings,
-        MAX(Top_paying_Skills.salary_year_avg) as salary_year_avg
-    from Top_paying_Skills
-    LEFT JOIN Top_Overall_Skills ON Top_paying_Skills.skills = Top_Overall_Skills.skills    
-    Where total_job_postings IS NOT NULL
-    Group by Top_paying_Skills.skills, Top_paying_skills.skills, Top_paying_Skills.type, Top_Overall_Skills.Total_Job_Postings, Top_paying_Skills.salary_year_avg
-    Order by salary_year_avg DESC, Total_Job_Postings DESC
+        tps.skills,
+        tps.type,
+        tps.salary_year_avg,
+        tos.Total_Job_Postings
+    FROM Top_paying_Skills tps
+    LEFT JOIN Top_Overall_Skills tos ON tps.skills = tos.skills
+    ORDER by tps.salary_year_avg DESC, tos.Total_Job_Postings DESC
     Limit 10;
+    
