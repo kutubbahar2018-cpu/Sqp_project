@@ -92,7 +92,7 @@ GROUP BY jobs.job_country
 ORDER BY total_job_postings DESC;
 ```
 
-![Countries](Sql_project_kutub_bahar\Assets\01_countries.png)
+![Countries](Sql_project_kutub_bahar/Assets/01_countries.png)
 
 **Insights**
 - The 10 postings come from **7 countries**.
@@ -116,7 +116,7 @@ ORDER BY jp.salary_year_avg ASC
 LIMIT 10;
 ```
 
-![Lowest paying jobs](images/02_lowest_paying_jobs.png)
+![Lowest paying jobs](Sql_project_kutub_bahar/Assets/02_lowest_paying_jobs.png)
 
 | Job ID | Salary (USD/year) | Skills |
 |---|---|---|
@@ -201,11 +201,11 @@ LIMIT 10;
 
 **Demand for the skills found in the top-paying postings**
 
-![Skill demand](images/03_skill_demand.png)
+![Skill demand](Sql_project_kutub_bahar/Assets/03_skill_demand.png)
 
 **The skills attached to the two highest salaries**
 
-![Top paying stacks](images/04_top_paying_stacks.png)
+![Top paying stacks](Sql_project_kutub_bahar/Assets/04_top_paying_stacks.png)
 
 | Skill | Type | Postings requiring it |
 |---|---|---|
