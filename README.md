@@ -10,12 +10,11 @@ This is my first data analytics portfolio project, built while working toward a 
 
 1. [Project Goals](#-project-goals)
 2. [Tools & Data](#-tools--data)
-3. [Repository Structure](#-repository-structure)
-4. [Analysis & Insights](#-analysis--insights)
-5. [Key Takeaways](#-key-takeaways)
-6. [Limitations](#-limitations)
-7. [What I Learned](#-what-i-learned)
-8. [Author](#-author)
+3. [Analysis & Insights](#-analysis--insights)
+4. [Key Takeaways](#-key-takeaways)
+5. [Limitations](#-limitations)
+6. [What I Learned](#-what-i-learned)
+7. [Author](#-author)
 
 ---
 
@@ -47,26 +46,6 @@ Only postings with a listed `salary_year_avg` were included.
 | `company_dim` | Company names |
 | `skills_job_dim` | Links each job to its skills |
 | `skills_dim` | Skill names and skill types |
-
----
-
-## 📁 Repository Structure
-
-```
-├── README.md
-├── sql/
-│   └── business_analyst_analysis.sql     # all queries
-├── data/
-│   ├── q1_countries.csv
-│   ├── q2_lowest_paying_skills.csv
-│   ├── q3_least_frequent_skills.csv
-│   └── q4_skills_salary_demand.csv
-└── images/
-    ├── 01_countries.png
-    ├── 02_lowest_paying_jobs.png
-    ├── 03_skill_demand.png
-    └── 04_top_paying_stacks.png
-```
 
 ---
 
