@@ -37,7 +37,6 @@ Only postings with a listed `salary_year_avg` were included.
 | Tool | Purpose |
 |---|---|
 | **SQL** | Querying, joins, CTEs, aggregation |
-| **Python (matplotlib, pandas)** | Creating the charts from the exported CSVs |
 | **GitHub** | Version control and publishing |
 
 **Tables used**
