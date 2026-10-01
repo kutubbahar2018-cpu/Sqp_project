@@ -256,7 +256,7 @@ This is a first project, so it is worth being open about what the analysis can a
 
 **Md Kutub Uddin Bahar**
 
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [kutubbahar2018-cpu](https://github.com/kutubbahar2018-cpu)
+- LinkedIn: [Md. Kutub Uddin Bahar](https://www.linkedin.com/in/kutub-bahar001)
 
 ⭐ If you found this project useful, feel free to star the repository.
