@@ -1,6 +1,5 @@
-
-/* Top 10 Overall Skills for the job title 'Business Analyst' */
-SELECT 
+/* Q3.1 Top 10 Overall Skills for the job title 'Business Analyst' */
+SELECT
     jp.job_title_short,
     s.skills,
     s.type,
@@ -13,8 +12,9 @@ Group by s.skills, s.type, jp.job_title_short
 ORDER by Total_Job_Postings DESC
 Limit 10;
 
-/* Top 10 useless Skills for the job title 'Business Analyst' */
-SELECT 
+
+/* Q3.2 Top 10 useless Skills for the job title 'Business Analyst' */
+SELECT
     jp.job_title_short,
     s.skills,
     s.type,
@@ -26,4 +26,3 @@ WHERE jp.salary_year_avg IS NOT NULL AND jp.job_title_short ='Business Analyst' 
 Group by s.skills, s.type, jp.job_title_short
 ORDER by Total_Job_Postings ASC
 Limit 10;
-

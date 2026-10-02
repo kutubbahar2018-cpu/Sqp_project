@@ -1,4 +1,4 @@
-    /* ---Most Optimal Skills for Business Analyst Job Title based on Salary and Total Job Postings */
+    /* Q4 Most Optimal Skills for Business Analyst Job Title based on Salary and Total Job Postings */
 
     /* CTE to get the top 10 paying skills for Business Analyst job title and the top 10 overall skills for Business Analyst job title */
     With Top_paying_Skills as (
